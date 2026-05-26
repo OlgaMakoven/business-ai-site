@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NOMIPAK — поставка запасных частей для линий розлива</title>
+    <meta
+      name="description"
+      content="NOMIPAK — поставка запасных частей и оборудования для производственных линий розлива Tetra Pak, Alfa Laval и Krones."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero" id="top">
+      <img class="hero__bg" src="assets/main-hero.jpg" alt="NOMIPAK и производственная линия" />
+      <div class="hero__overlay"></div>
+      <div class="container hero__content">
+        <p class="eyebrow">Надежность в каждой детали</p>
+        <h1>NOMIPAK — поставка запасных частей для линий розлива</h1>
+        <p class="lead">
+          Работаем с 2023 года и поставили на предприятия более <strong>10 000 запасных частей</strong>,
+          обеспечив качественную и непрерывную работу производств.
+        </p>
+        <div class="hero__chips">
+          <span>Tetra Pak</span>
+          <span>Alfa Laval</span>
+          <span>Krones</span>
+        </div>
+        <a class="btn btn--primary" href="#order">Оставить заявку</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="section director" id="director">
+        <div class="container director__grid">
+          <img src="assets/director.jpg" alt="Генеральный директор Удовиченко Василий Юрьевич" />
+          <article>
+            <h2>Обращение Генерального директора</h2>
+            <p class="quote">
+              «Уважаемые партнеры! Для нас поставка каждой детали — это не просто логистика, а ответственность
+              за стабильность вашего производства. Мы в NOMIPAK строим работу на точности, скорости и
+              технологической совместимости, чтобы ваши линии розлива работали без остановок. Благодарю за
+              доверие и готов к долгосрочному сотрудничеству».
+            </p>
+            <p class="sign">Удовиченко Василий Юрьевич<br />Генеральный директор NOMIPAK</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--dark" id="video">
+        <div class="container">
+          <h2>Видео-визитка</h2>
+          <p>
+            Демонстрация философии качества: как продукт бережно разливается в упаковку и попадает к
+            конечному потребителю.
+          </p>
+          <div class="video-wrap">
+            <iframe
+              src="https://www.youtube.com/embed/3m8kJ9uE-7U"
+              title="Розлив молока в упаковку"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="order">
+        <div class="container two-columns">
+          <div>
+            <h2>Заявки и выставление счетов</h2>
+            <p>
+              Отправьте номенклатуру и количество — мы подготовим коммерческое предложение и счет для оплаты.
+            </p>
+            <ul class="checklist">
+              <li>Подбор совместимых запасных частей</li>
+              <li>Согласование сроков поставки</li>
+              <li>Оперативное выставление счета</li>
+            </ul>
+          </div>
+          <form class="card" id="orderForm">
+            <label>
+              Компания
+              <input type="text" name="company" required />
+            </label>
+            <label>
+              Контактное лицо
+              <input type="text" name="person" required />
+            </label>
+            <label>
+              E-mail
+              <input type="email" name="email" required />
+            </label>
+            <label>
+              Телефон
+              <input type="tel" name="phone" required />
+            </label>
+            <label>
+              Наименование позиции
+              <input type="text" name="part" required />
+            </label>
+            <label>
+              Количество
+              <input type="number" name="qty" min="1" value="1" required />
+            </label>
+            <label>
+              Комментарий
+              <textarea name="comment" rows="3"></textarea>
+            </label>
+            <button type="submit" class="btn btn--primary">Отправить заявку</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="section section--soft" id="feedback">
+        <div class="container two-columns">
+          <div>
+            <h2>Обратная связь</h2>
+            <p>Свяжитесь с нами удобным способом — мы ответим максимально быстро.</p>
+            <div class="contacts">
+              <a href="tel:+79686671030">+7 968 667-10-30</a>
+              <a href="mailto:sale@nomipak.ru">sale@nomipak.ru</a>
+            </div>
+          </div>
+          <form class="card" id="feedbackForm">
+            <label>
+              Ваше имя
+              <input type="text" name="name" required />
+            </label>
+            <label>
+              Контакты
+              <input type="text" name="contact" required />
+            </label>
+            <label>
+              Сообщение
+              <textarea name="message" rows="4" required></textarea>
+            </label>
+            <button type="submit" class="btn">Отправить сообщение</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="section" id="details">
+        <div class="container">
+          <h2>Реквизиты NOMIPAK</h2>
+          <div class="details-grid">
+            <p><strong>ИНН:</strong> 9702058390</p>
+            <p><strong>КПП:</strong> 770901001</p>
+            <p><strong>ОГРН:</strong> 1237700505349</p>
+            <p><strong>ОКПО:</strong> 98288168</p>
+            <p class="details-grid__full">
+              <strong>Юридический/фактический адрес:</strong> 109028, г. Москва, вн. тер. г. Муниципальный округ
+              Басманный, пер. Хитровский, д. 3/1 стр. 4, помещ. 2/1
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© 2023–2026 NOMIPAK. Поставка запасных частей для производственных линий розлива.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
